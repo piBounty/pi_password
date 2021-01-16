@@ -4,7 +4,7 @@
 #include <unistd.h> // write
 #include <fcntl.h> // open
 
-#define ROUNDS 1024
+#define ROUNDS 200000
 #define SALTLEN 16
 
 int get_salt ( const char* filename, int len, unsigned char* salt )
